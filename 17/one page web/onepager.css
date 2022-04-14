@@ -1,0 +1,20 @@
+.header {
+    background-color: maroon;
+    padding: 5px;
+  }
+
+.inline-block{
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+
+  }
+
+  .leftBar{
+      width: 29%;
+      height: 500px;
+      float: left;
+      color: orange;
+  }
