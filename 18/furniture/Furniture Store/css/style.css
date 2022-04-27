@@ -88,7 +88,7 @@ margin: 0px 5%;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
-height: 300px;
+/* height: 300px; */
 grid-template-areas:
 "bookcases bedroom couches" 
 "patio patio couches"
@@ -101,22 +101,31 @@ grid-template-areas:
 #bookcases{
   grid-area: bookcases;
   background-image: url("../images/bookcases.png");
+  height: 300px;
 }
 #bedroom{
   grid-area: bedroom;
-  background-image: url("../images/bookcases.png");
+  background-image: url("../images/beds.png");
+  height: 300px;
+
 }
 #couches{
   grid-area: couches;
   background-image: url("../images/couch.png");
+  height: 605px;
+
 }
 #patio{
   grid-area: patio;
   background-image: url("../images/patio.png");
+  height: 300px;
+
 }
 #desks{
   grid-area:desks;
-  background-image: url("../images/desks/.png");
+  background-image: url("../images/desks.png");
+  height: 300px;
+
 }
 
 
